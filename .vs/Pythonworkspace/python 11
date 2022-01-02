@@ -1,0 +1,16 @@
+python = "Python is Amazing"
+print(python.lower())
+print(python.upper())
+print(python[0].isupper())
+print(python[1].islower())
+print(python[0].islower())
+print(len(python))
+print(python.replace("Python","Java"))
+
+daegu = "Daegu is Amazing"
+print(daegu.upper())
+print(daegu.lower())
+print(daegu[0].isupper())
+print(daegu[1].islower())
+print(len(daegu))
+print(daegu.replace("Daegu","Seoul"))

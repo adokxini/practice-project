@@ -1,0 +1,23 @@
+print("a"+"b")
+print("a","b")
+
+# 예시) %d 정수 , %s 파이썬 , %c Apple
+
+print("나는 %d살입니다." %26)
+print("나는 %s를 좋아해요." % "파이썬")
+print("I like %s" %"python")
+print("Apple은 %c로 시작해요." %"A")
+print("Apple은 %s로 시작해요." %"A")
+
+print("나는 %s색과 %s색을 좋아해요." %("파랑","빨강"))
+print("나는 {}살입니다.".format(20))
+print("나는 {}살입니다.".format(25))
+print("나는 {}색과 {}색을 좋아해요.".format("파랑","빨간"))
+print("나는 {1}색과 {0}색을 좋아해요.".format("파란","빨간"))
+print("나는 {0}색과 {1}색을 좋아해요.".format("파란","빨간"))
+print("나는 {age}살이며, {color}색을 좋아해요.".format(age = 20, color = "빨간"))
+print("나는 {age}살이며, {color}색을 좋아해요.".format(age = 26 , color = "green"))
+
+age = 26
+pet = "고양이"
+print(f"나는 {age}살이며, {pet}를 키우고 있어요.")

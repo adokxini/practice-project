@@ -1,0 +1,23 @@
+jeongho = "Jeongho is Cool"
+print (jeongho)
+print(jeongho.upper())
+print(jeongho.lower())
+print(jeongho[0].isupper())
+print(jeongho[4].islower())
+print(len(jeongho))
+print(jeongho.replace("Jeongho","yuna"))
+
+index = jeongho.index("o")
+print(index)
+index = jeongho.index("g")
+print(index)
+
+
+print(jeongho.find("o"))
+print(jeongho.find("o",index+1))
+print(jeongho.find("o",index+2))
+
+print(jeongho.find("java"))
+#find & index 
+
+print(jeongho.count("o"))

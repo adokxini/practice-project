@@ -1,0 +1,6 @@
+station = "사당"
+station = "신천시장"
+station = "동대구"
+station ="신도림"
+station = "신천시장"
+print (station+ "행 열차가 들어오고 있습니다.")
